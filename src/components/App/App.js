@@ -1,6 +1,7 @@
 import React from 'react';
 
 function App() {
+  const a = 23;
   return (
     <div>
       <header className="App-header">
