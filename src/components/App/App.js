@@ -1,23 +1,15 @@
 import React from 'react';
+import Header from './Header/Header';
+import Main from './Main/Main';
+import Footer from './Main/Footer/Footer';
 
-function App() {
-  const a = 23;
+function App(props) {
   return (
-    <div>
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Header/>
+      <Main state={props.state}/>
+      <Footer />
+    </React.Fragment>
   );
 }
 

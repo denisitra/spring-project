@@ -1,0 +1,56 @@
+.phrase_box {
+    background-color: #1b1f23;
+}
+
+.phrase_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vw;
+    padding-bottom: 100px;
+    max-width: 1500px;
+    margin: 0 auto;
+
+}
+
+.quotes {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.phrase {
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 50vw;
+    text-align: center;
+    font-size: 1.8em;
+    color: #6db33f;
+    max-width: 1500px;
+
+}
+
+.phrase_creator {
+    margin: 0 auto;
+    display: flex;
+    padding-top: 30px;
+}
+
+.phrase_creator_photo {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.phrase_creator_info {
+    margin-left: 20px;
+}
+
+.phrase_creator_info_name {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.phrase_creator_info_link {
+    color: #1f98ff;
+}

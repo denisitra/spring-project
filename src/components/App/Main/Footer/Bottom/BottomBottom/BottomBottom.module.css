@@ -1,0 +1,48 @@
+.bottom_bottom_box {
+    background-color: #1b1f23;
+}
+
+.bottom_bottom_content {
+    max-width: 1500px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+    margin: 0 auto;
+}
+
+.spring_links {
+    flex: 4;
+}
+
+.spring_icons {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.icon_logo {
+    width: 50px;
+    height: 50px;
+    margin:  0 10px;
+}
+
+.spring_logo {
+    width: 150px;
+    height: 50px;
+}
+
+.spring_info {
+    color: hsla(0, 0%, 100%, .3);
+    margin-top: 10px;
+}
+
+.spring_info > a {
+    color: hsla(0, 0%, 100%, .3);
+    text-decoration: none;
+}
+
+.spring_description {
+    color: hsla(0, 0%, 100%, .3);
+    margin-top: 20px;
+}
