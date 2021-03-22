@@ -1,0 +1,138 @@
+.bottom_top_box {
+    background-color: #1b1f23;
+}
+
+.bottom_top_content {
+    max-width: 1500px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 80px 0;
+    margin: 0 auto;
+    width: 90vw;
+}
+
+.why_spring_submenu {
+    margin-left: -60px;
+}
+
+.why_spring_submenu > li + li > a {
+    padding: 5px 0;
+}
+
+.why_spring_submenu > li > a {
+    display: block;
+    font-size: 1em;
+    color: #ffffff;
+    text-decoration: none;
+    width: 200px;
+}
+
+.why_spring_submenu > li > a:hover {
+    color: green;
+}
+.why_spring_label, .learn_label, .community_label, .projects_label {
+    margin-left: -20px;
+    font-size: 1.5em;
+}
+.get_newsletter_label{
+    font-size: 1.5em;
+}
+
+.learn_submenu {
+    margin-left: -60px;
+}
+
+.learn_submenu > li + li > a {
+    padding: 5px 0;
+}
+
+.learn_submenu > li > a {
+    display: block;
+    font-size: 1em;
+    color: #ffffff;
+    text-decoration: none;
+    width: 200px;
+}
+
+.community_submenu {
+    margin-left: -60px;
+}
+
+.community_submenu > li + li > a {
+    padding: 5px 0;
+}
+
+.community_submenu > li > a {
+    display: block;
+    font-size: 1em;
+    color: #ffffff;
+    text-decoration: none;
+    width: 200px;
+}
+
+.community_submenu > li > a:hover , .learn_submenu > li > a:hover, .projects_submenu > li > a:hover{
+    color: #23c44c;
+    list-style-type: none;
+}
+
+.projects_submenu {
+    margin-left: -60px;
+}
+
+.projects_submenu > li + li > a {
+    padding: 5px 0;
+}
+
+.projects_submenu > li > a {
+    display: block;
+    font-size: 1em;
+    color: #ffffff;
+    text-decoration: none;
+    width: 200px;
+}
+
+.why_spring, .learn, .community, .projects, .get_newsletter {
+    flex: 1;
+}
+
+.get_newsletter {
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input_login {
+    width: 250px;
+    height: 4vh;
+    border: 1px solid #ffffff;
+    margin-top: 15px;
+    background: none;
+    color: #ffffff;
+}
+
+.send_login {
+    height: 4.4vh;
+    border: none;
+    background-color: #ffffff;
+    color: black;
+    transition: all 500ms ease;
+}
+
+.send_login:hover {
+    background-color: #23c44c;
+}
+
+.input_login_label {
+    display: block;
+}
+
+.label_for_checkbox {
+    color: hsla(0, 0%, 100%, .3);
+    width: 150px;
+}
+
+#checkbox_field {
+    margin-top: 20px;
+}
