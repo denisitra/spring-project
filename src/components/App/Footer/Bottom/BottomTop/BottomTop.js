@@ -6,7 +6,7 @@ function BottomTop(){
 		<div className={S.bottom_top_box}>
 			<div className={S.bottom_top_content}>
 				<div className={S.why_spring}>
-					Why Spring?
+					<span className={S.why_spring_label}>Why Spring?</span>
 						<ul className={S.why_spring_submenu}>
 							<li><a href="/">Overview</a></li>
 							<li><a href="/">Microservices</a></li>
@@ -19,7 +19,7 @@ function BottomTop(){
 						</ul>
 				</div>
 				<div className={S.learn}>
-					Learn
+					<span className={S.learn_label}>Learn</span>
 					<ul className={S.why_spring_submenu}>
 						<li><a href="/">Quick start</a></li>
 						<li><a href="/">Guides</a></li>
@@ -27,14 +27,14 @@ function BottomTop(){
 					</ul>
 				</div>
 				<div className={S.community}>
-					Community
+					<span className={S.community_label}>Community</span>
 					<ul className={S.community_submenu}>
 						<li><a href="/">Events</a></li>
 						<li><a href="/">Team</a></li>
 					</ul>
 				</div>
 				<div className={S.projects}>
-					Projects
+					<span className={S.projects_label}>Projects</span>
 					<ul className={S.projects_submenu}>
 						<li><a href="/">Overview</a></li>
 						<li><a href="/">Spring Boot</a></li>
@@ -50,7 +50,7 @@ function BottomTop(){
 				<div className={S.get_newsletter}>
 					<form>
 						<label className={S.input_login_label}>
-							Get the Spring newsletter
+							<span className={S.get_newsletter_label}>Get the Spring newsletter</span>
 						</label>
 						<input className={S.input_login} type="text" placeholder='Email Address'/>
 						<input className={S.send_login} type="submit" value="SUBSCRIBE" />

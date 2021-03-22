@@ -2,6 +2,7 @@ import React from 'react';
 import S from './Abilities.module.css';
 
 function ListAbilities(props) {
+	console.log(props.page);
 	return (
 			<div className={S.item_box}>
 				<a href="/">

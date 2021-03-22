@@ -1,6 +1,4 @@
-@media screen and (min-width: 1025px) {
-
-
+@media screen and (min-width: 900px) {
     header {
         height: 70px;
         background-color: #1b1f23;
@@ -22,9 +20,9 @@
     }
 
     .logo {
-        width: 200px;
+        width: 130px;
         cursor: pointer;
-        padding: 0.3em 0;
+        padding: 0.8em 0;
     }
 
     .a {
@@ -36,13 +34,19 @@
     }
 
     li {
+        font-size: 1.2em;
+        list-style-type: none;
+        padding: 5px;
+    }
+
+    .nav_items > li {
         display: inline-block;
         color: #ffffff;
         font-family: Helmetica, sans-serif;
         justify-content: space-between;
         list-style: none;
         margin: 0 20px;
-        font-size: 1.1em;
+        font-size: .9em;
     }
 
     .dropdown {
@@ -84,7 +88,6 @@
         color: #ffffff;
         text-decoration: none;
         width: 160px;
-
     }
 
     .submenu > li > a:hover {
@@ -99,12 +102,9 @@
         padding: 0;
         margin: 0;
     }
-
-
 }
 
-
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 950px) {
     header {
         background-color: #1b1f23;
     }
@@ -123,8 +123,8 @@
     }
 
     .logo {
-        width: calc(200px + 1vw);
-        height: calc(40px + 1vw);
+        width: calc(100px + 3vw);
+        height: calc(20px + 3vw);
         padding-top: .4em;
         cursor: pointer;
     }
@@ -206,8 +206,20 @@
         cursor: pointer;
         outline: none;
     }
-    .header_icon{
+
+    .header_icon {
         width: 100%;
         height: 100%;
+    }
+
+    .header_button {
+        background: #1b1f23;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        height: 60px;
     }
 }

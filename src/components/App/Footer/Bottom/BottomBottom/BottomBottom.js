@@ -1,9 +1,9 @@
 import React from 'react';
 import S from './BottomBottom.module.css';
-import springLogo from './../../../../../../assets/spring-logo-9146a4d3298760c2e7e49595184e1975.svg';
-import youtubeLogo from './../../../../../../assets/youtube_icon.svg';
-import githubLogo from './../../../../../../assets/github_icon.svg';
-import twitterLogo from './../../../../../../assets/twitter_icon.svg';
+import springLogo from '../../../../../assets/spring_logo.svg';
+import youtubeLogo from '../../../../../assets/youtube_icon.svg';
+import githubLogo from '../../../../../assets/github_icon.svg';
+import twitterLogo from '../../../../../assets/twitter_icon.svg';
 
 
 function BottomBottom(){

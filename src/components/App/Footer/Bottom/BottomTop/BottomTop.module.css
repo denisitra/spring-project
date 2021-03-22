@@ -10,6 +10,7 @@
     flex-wrap: wrap;
     padding: 80px 0;
     margin: 0 auto;
+    width: 90vw;
 }
 
 .why_spring_submenu {
@@ -31,6 +32,13 @@
 .why_spring_submenu > li > a:hover {
     color: green;
 }
+.why_spring_label, .learn_label, .community_label, .projects_label {
+    margin-left: -20px;
+    font-size: 1.5em;
+}
+.get_newsletter_label{
+    font-size: 1.5em;
+}
 
 .learn_submenu {
     margin-left: -60px;
@@ -46,10 +54,6 @@
     color: #ffffff;
     text-decoration: none;
     width: 200px;
-}
-
-.learn_submenu > li > a:hover {
-    color: green;
 }
 
 .community_submenu {
@@ -68,8 +72,9 @@
     width: 200px;
 }
 
-.community_submenu > li > a:hover {
-    color: green;
+.community_submenu > li > a:hover , .learn_submenu > li > a:hover, .projects_submenu > li > a:hover{
+    color: #23c44c;
+    list-style-type: none;
 }
 
 .projects_submenu {
@@ -88,29 +93,11 @@
     width: 200px;
 }
 
-.projects_submenu > li > a:hover {
-    color: green;
-}
-
-
-.why_spring {
-    flex: 1;
-}
-
-.learn {
-    flex: 1;
-}
-
-.community {
-    flex: 1;
-}
-
-.projects {
+.why_spring, .learn, .community, .projects, .get_newsletter {
     flex: 1;
 }
 
 .get_newsletter {
-    flex: 1;
     min-width: 350px;
     display: flex;
     flex-direction: column;
@@ -132,17 +119,20 @@
     color: black;
     transition: all 500ms ease;
 }
-.send_login:hover{
+
+.send_login:hover {
     background-color: #23c44c;
 }
-.input_login_label{
+
+.input_login_label {
     display: block;
 }
-.label_for_checkbox{
-    color: hsla(0,0%,100%,.3);
-    width: 150px;
 
+.label_for_checkbox {
+    color: hsla(0, 0%, 100%, .3);
+    width: 150px;
 }
-#checkbox_field{
+
+#checkbox_field {
     margin-top: 20px;
 }

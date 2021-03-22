@@ -27,38 +27,21 @@
     padding-bottom: 10px;
 }
 
-.code_content_first_line {
+.code_content_first_line, .code_content_second_line, .code_content_fourth_line_part_1 {
     color: #36bedb;
 }
 
-.code_content_second_line {
-    color: #36bedb;
-}
-
-.code_content_fourth_line_part_1 {
-    color: #36bedb;
-}
-
-.code_content_fourth_line_part_2 {
+.code_content_fourth_line_part_2, .code_content_sixth_line {
     color: #a1d21b;
 }
 
-.code_content_third_line {
+.code_content_third_line, .code_content_fifth_line  {
     color: #23c44c;
 }
 
 .code_content_fourth_line {
     margin-top: 30px;
 }
-
-.code_content_fifth_line {
-    color: #23c44c;
-}
-
-.code_content_sixth_line {
-    color: #a1d21b;
-}
-
 
 .code_descriptions {
     flex: 1;

@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from './Header/Header';
 import Main from './Main/Main';
-import Footer from './Main/Footer/Footer';
+import Footer from './Footer/Footer';
 
 function App(props) {
   return (
     <React.Fragment>
-      <Header/>
+      <Header list={props.list}/>
       <Main state={props.state}/>
       <Footer />
     </React.Fragment>
