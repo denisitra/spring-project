@@ -34,7 +34,7 @@ function NavigationList({ handleToggle, list}) {
 							</ul>
 						</div>
 					</div>
-					<img className={!isOpenSecondList ? S.arrow_up: S.arrow_down} src={aa} alt="arrow" />
+					<img className={!isOpenSecondList ? S.arrow_up: S.arrow_down} src={arrow} alt="arrow" />
 				</li>
 				<li className={S.hamburger_box}>
 					<div onClick={() => setIsOpenThirdList(prev => !prev)}>
@@ -45,20 +45,20 @@ function NavigationList({ handleToggle, list}) {
 							</ul>
 						</div>
 					</div>
-					<img className={!isOpenThirdList ? S.arrow_up: S.arrow_down} src={aa} alt="arrow" />
+					<img className={!isOpenThirdList ? S.arrow_up: S.arrow_down} src={arrow} alt="arrow" />
 				</li>
 				<li className={S.hamburger_box}>
 					<div>
 						<div className={S.hamburger_label}>Training</div>
 					</div>
-					<img className={S.arrow_hidden} src={aa} alt="arrow" />
+					<img className={S.arrow_hidden} src={arrow} alt="arrow" />
 
 				</li>
 				<li className={S.hamburger_box}>
 					<div>
 						<div className={S.hamburger_label}>Support</div>
 					</div>
-					<img className={S.arrow_hidden} src={aa} alt="arrow" />
+					<img className={S.arrow_hidden} src={arrow} alt="arrow" />
 
 				</li>
 				<li className={S.hamburger_box}>
@@ -70,7 +70,7 @@ function NavigationList({ handleToggle, list}) {
 							</ul>
 						</div>
 					</div>
-					<img className={!isOpenFourthList ? S.arrow_up: S.arrow_down} src={aa} alt="arrow" />
+					<img className={!isOpenFourthList ? S.arrow_up: S.arrow_down} src={arrow} alt="arrow" />
 
 				</li>
 			</ul>
