@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/spring-project/static/css/main.3c5eca28.chunk.css",
-    "main.js": "/spring-project/static/js/main.f99a0f39.chunk.js",
-    "main.js.map": "/spring-project/static/js/main.f99a0f39.chunk.js.map",
+    "main.js": "/spring-project/static/js/main.6d6a2dad.chunk.js",
+    "main.js.map": "/spring-project/static/js/main.6d6a2dad.chunk.js.map",
     "runtime-main.js": "/spring-project/static/js/runtime-main.a41f1f4c.js",
     "runtime-main.js.map": "/spring-project/static/js/runtime-main.a41f1f4c.js.map",
     "static/js/2.45349e9a.chunk.js": "/spring-project/static/js/2.45349e9a.chunk.js",
@@ -11,10 +11,10 @@
     "static/css/main.3c5eca28.chunk.css.map": "/spring-project/static/css/main.3c5eca28.chunk.css.map",
     "static/js/2.45349e9a.chunk.js.LICENSE.txt": "/spring-project/static/js/2.45349e9a.chunk.js.LICENSE.txt",
     "static/media/aaa.f3865b1e.svg": "/spring-project/static/media/aaa.f3865b1e.svg",
+    "static/media/arrow.ac3b0998.svg": "/spring-project/static/media/arrow.ac3b0998.svg",
     "static/media/github_icon.146e30eb.svg": "/spring-project/static/media/github_icon.146e30eb.svg",
-    "static/media/qq.ac3b0998.svg": "/spring-project/static/media/qq.ac3b0998.svg",
     "static/media/quote.61f0f8fe.svg": "/spring-project/static/media/quote.61f0f8fe.svg",
-    "static/media/spring-logo-9146a4d3298760c2e7e49595184e1975.5e950eb4.svg": "/spring-project/static/media/spring-logo-9146a4d3298760c2e7e49595184e1975.5e950eb4.svg",
+    "static/media/spring_logo.5e950eb4.svg": "/spring-project/static/media/spring_logo.5e950eb4.svg",
     "static/media/twitter_icon.665d9096.svg": "/spring-project/static/media/twitter_icon.665d9096.svg",
     "static/media/youtube_icon.51175fd8.svg": "/spring-project/static/media/youtube_icon.51175fd8.svg"
   },
@@ -22,6 +22,6 @@
     "static/js/runtime-main.a41f1f4c.js",
     "static/js/2.45349e9a.chunk.js",
     "static/css/main.3c5eca28.chunk.css",
-    "static/js/main.f99a0f39.chunk.js"
+    "static/js/main.6d6a2dad.chunk.js"
   ]
 }
