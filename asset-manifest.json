@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/spring-project/static/css/main.68a86bb3.chunk.css",
-    "main.js": "/spring-project/static/js/main.5b2af5e0.chunk.js",
-    "main.js.map": "/spring-project/static/js/main.5b2af5e0.chunk.js.map",
+    "main.css": "/spring-project/static/css/main.5187c5fe.chunk.css",
+    "main.js": "/spring-project/static/js/main.2b645888.chunk.js",
+    "main.js.map": "/spring-project/static/js/main.2b645888.chunk.js.map",
     "runtime-main.js": "/spring-project/static/js/runtime-main.a41f1f4c.js",
     "runtime-main.js.map": "/spring-project/static/js/runtime-main.a41f1f4c.js.map",
     "static/js/2.45349e9a.chunk.js": "/spring-project/static/js/2.45349e9a.chunk.js",
     "static/js/2.45349e9a.chunk.js.map": "/spring-project/static/js/2.45349e9a.chunk.js.map",
     "index.html": "/spring-project/index.html",
-    "static/css/main.68a86bb3.chunk.css.map": "/spring-project/static/css/main.68a86bb3.chunk.css.map",
+    "static/css/main.5187c5fe.chunk.css.map": "/spring-project/static/css/main.5187c5fe.chunk.css.map",
     "static/js/2.45349e9a.chunk.js.LICENSE.txt": "/spring-project/static/js/2.45349e9a.chunk.js.LICENSE.txt",
     "static/media/aaa.f3865b1e.svg": "/spring-project/static/media/aaa.f3865b1e.svg",
     "static/media/arrow.ac3b0998.svg": "/spring-project/static/media/arrow.ac3b0998.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.a41f1f4c.js",
     "static/js/2.45349e9a.chunk.js",
-    "static/css/main.68a86bb3.chunk.css",
-    "static/js/main.5b2af5e0.chunk.js"
+    "static/css/main.5187c5fe.chunk.css",
+    "static/js/main.2b645888.chunk.js"
   ]
 }
