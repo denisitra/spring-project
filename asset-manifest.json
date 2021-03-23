@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/spring-project/static/css/main.46ca8f14.chunk.css",
+    "main.css": "/spring-project/static/css/main.55627ccd.chunk.css",
     "main.js": "/spring-project/static/js/main.c46d1df4.chunk.js",
     "main.js.map": "/spring-project/static/js/main.c46d1df4.chunk.js.map",
     "runtime-main.js": "/spring-project/static/js/runtime-main.a41f1f4c.js",
@@ -8,7 +8,7 @@
     "static/js/2.45349e9a.chunk.js": "/spring-project/static/js/2.45349e9a.chunk.js",
     "static/js/2.45349e9a.chunk.js.map": "/spring-project/static/js/2.45349e9a.chunk.js.map",
     "index.html": "/spring-project/index.html",
-    "static/css/main.46ca8f14.chunk.css.map": "/spring-project/static/css/main.46ca8f14.chunk.css.map",
+    "static/css/main.55627ccd.chunk.css.map": "/spring-project/static/css/main.55627ccd.chunk.css.map",
     "static/js/2.45349e9a.chunk.js.LICENSE.txt": "/spring-project/static/js/2.45349e9a.chunk.js.LICENSE.txt",
     "static/media/aaa.f3865b1e.svg": "/spring-project/static/media/aaa.f3865b1e.svg",
     "static/media/arrow.ac3b0998.svg": "/spring-project/static/media/arrow.ac3b0998.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.a41f1f4c.js",
     "static/js/2.45349e9a.chunk.js",
-    "static/css/main.46ca8f14.chunk.css",
+    "static/css/main.55627ccd.chunk.css",
     "static/js/main.c46d1df4.chunk.js"
   ]
 }
